@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+    
+}
+
+*:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+#formInputsWrapper {
+        width: 100%;
+        padding: 1rem;
+}
+
+.addedElem {
+    display: block;
+    width: 100%;
+    line-height: 2rem;
+    height: 2rem;
+    margin: .75rem 0;
+    padding-left: 2rem;
+    border: 1px  solid lightgrey;
+    
+}
+
+#user-language{
+    padding-left: 1rem !important;
+}
+
+#submit-region {
+    background: #C5DEF2;
+    padding: 1rem;
+}
+
+#submit-region input {
+    -webkit-appearance: none;
+    padding: .5rem;
+    border-style: none;
+    background: #2F86CF;
+    color: white;
+}
+
+select {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+h1 {
+    background: #2F86CF;
+    color: white;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+#formCard{
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid lightgrey;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+
+.fa {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    color: lightgrey;
+}
+
+textarea {
+    height: 4rem !important;
+}
